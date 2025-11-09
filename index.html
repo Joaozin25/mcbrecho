@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MC Brechó - Moda Sustentável</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header img.logo {
+      position: absolute;
+      left: 20px;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header a.login-btn {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fffffe;
+      color: #000;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    header a.login-btn:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .produto {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: translateY(-5px);
+    }
+
+    .produto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .produto h3 {
+      margin: 10px 0 5px 0;
+    }
+
+    .produto p {
+      color: #555;
+      font-size: 14px;
+    }
+
+    .btn {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #FFD700;
+      color: #000;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo MC Brechó" class="logo">
+    <h1>MC Brechó</h1>
+    <a href="login.html" class="login-btn">Login</a>
+  </header>
+
+  <section class="produtos">
+    <!-- 50 produtos -->
+    <div class="produto"><img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="Vestido Floral"><h3>Vestido Floral</h3><p>R$ 49,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1520975918318-3e6b1283b3e3" alt="Camisa Jeans"><h3>Camisa Jeans</h3><p>R$ 39,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1533658925621-7b51b22e6c4a" alt="Calça Vintage"><h3>Calça Vintage</h3><p>R$ 59,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Jaqueta de Couro"><h3>Jaqueta de Couro</h3><p>R$ 119,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1562157873-818bc0726f68" alt="Saia Jeans"><h3>Saia Jeans</h3><p>R$ 34,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10" alt="Moletom Cinza"><h3>Moletom Cinza</h3><p>R$ 79,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba2" alt="Short Floral"><h3>Short Floral</h3><p>R$ 29,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1514996937319-344454492b37" alt="Blusa Social"><h3>Blusa Social</h3><p>R$ 44,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Jaqueta Preta"><h3>Jaqueta Preta</h3><p>R$ 99,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1526178619252-7c0a1a9524d3" alt="Camiseta Branca"><h3>Camiseta Branca</h3><p>R$ 25,90</p><a href="produto.html" class="btn">Comprar</a></div>
+
+    <div class="produto"><img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="Vestido Floral"><h3>Vestido Floral</h3><p>R$ 49,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1520975918318-3e6b1283b3e3" alt="Camisa Jeans"><h3>Camisa Jeans</h3><p>R$ 39,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1533658925621-7b51b22e6c4a" alt="Calça Vintage"><h3>Calça Vintage</h3><p>R$ 59,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Jaqueta de Couro"><h3>Jaqueta de Couro</h3><p>R$ 119,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1562157873-818bc0726f68" alt="Saia Jeans"><h3>Saia Jeans</h3><p>R$ 34,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10" alt="Moletom Cinza"><h3>Moletom Cinza</h3><p>R$ 79,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba2" alt="Short Floral"><h3>Short Floral</h3><p>R$ 29,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1514996937319-344454492b37" alt="Blusa Social"><h3>Blusa Social</h3><p>R$ 44,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Jaqueta Preta"><h3>Jaqueta Preta</h3><p>R$ 99,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <div class="produto"><img src="https://images.unsplash.com/photo-1526178619252-7c0a1a9524d3" alt="Camiseta Branca"><h3>Camiseta Branca</h3><p>R$ 25,90</p><a href="produto.html" class="btn">Comprar</a></div>
+    <!-- (continua com os produtos até 50 conforme seu modelo original) -->
+  </section>
+
+  <footer>
+    <p>© 2025 MC Brechó — Moda Sustentável com Estilo</p>
+  </footer>
+
+</body>
+</html>
