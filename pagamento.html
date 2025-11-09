@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento PIX - MC Brechó</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+      position: relative;
+    }
+
+    header img {
+      height: 80px;
+      position: absolute;
+      left: 20px;
+      top: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+
+    .pix-container {
+      background: #fff;
+      max-width: 400px;
+      margin: 80px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .pix-container h2 {
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    .pix-container img {
+      width: 200px;
+      height: 200px;
+      margin: 20px 0;
+    }
+
+    .pix-container p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .btn-voltar {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-voltar:hover {
+      background-color: #FFD700;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo MC Brechó">
+    <h1>MC Brechó</h1>
+  </header>
+
+  <div class="pix-container">
+    <h2>Pagamento via PIX</h2>
+    <p>Escaneie o QR Code abaixo para realizar o pagamento:</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=Pagamento%20MCBrecho&size=200x200" alt="QR Code PIX">
+    <p><strong>Chave PIX:</strong> mcbrecho@pagamentos.com</p>
+    <p>Após o pagamento, seu pedido será confirmado automaticamente.</p>
+
+    <a href="index.html" class="btn-voltar">Voltar à Loja</a>
+  </div>
+
+</body>
+</html>
